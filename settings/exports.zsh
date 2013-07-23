@@ -1,5 +1,5 @@
 # Currently this path is appendend to dynamically when picking a ruby version
-export PATH=/usr/bin:/usr/local/bin:/bin:/usr/sbin:/sbin
+export PATH=/Applications/Postgres.app/Contents/MacOS/bin:/usr/bin:/usr/local/bin:/bin:/usr/sbin:/sbin
 
 # Turn on terminal colors
 export TERM=xterm-256color
