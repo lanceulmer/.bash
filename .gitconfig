@@ -1,0 +1,8 @@
+[user]
+	name = Lance Ulmer
+	email = lance@lanceulmer.com
+[core]
+	excludesfile = /Users/lance/.gitignore_global
+	editor = vim
+[push]
+	default = simple
