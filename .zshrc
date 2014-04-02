@@ -5,3 +5,6 @@ source ~/.zsh/settings/prompt.zsh
 source ~/.zsh/settings/aliases.zsh
 source ~/.zsh/settings/history.zsh
 source ~/.zsh/settings/zsh_hooks.zsh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
