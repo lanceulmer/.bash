@@ -29,6 +29,7 @@
 # Config Files #
 ################
 heroku_env.rb
+.ruby-version
 
 # OS generated files #
 ######################
