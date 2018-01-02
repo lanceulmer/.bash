@@ -30,6 +30,9 @@
 ################
 heroku_env.rb
 .ruby-version
+.ruby-env
+.envrc
+.vscode*
 
 # OS generated files #
 ######################
