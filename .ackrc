@@ -1,7 +1,0 @@
---type-set=moon=.moon
-
---ignore-dir=.git
---ignore-dir=.bundle
---ignore-dir=.sass-cache
---ignore-dir=log
---ignore-dir=tmp

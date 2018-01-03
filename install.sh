@@ -1,8 +1,7 @@
-# main zsh file
-ln -fs ~/.zsh/.zshrc ~/.zshrc
+# main bash file
+ln -fs ~/.bash/.bash_profile ~/.bash_profile
 
 # other dotfiles
-ln -fs ~/.zsh/.gitconfig ~/.gitconfig
-ln -fs ~/.zsh/.gitignore_global ~/.gitignore_global
-ln -fs ~/.zsh/.gemrc ~/.gemrc
-ln -fs ~/.zsh/.ackrc ~/.ackrc
+ln -fs ~/.bash/.gitconfig ~/.gitconfig
+ln -fs ~/.bash/.gitignore_global ~/.gitignore_global
+ln -fs ~/.bash/.gemrc ~/.gemrc
