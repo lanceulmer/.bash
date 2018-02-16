@@ -6,3 +6,28 @@
 	editor = vim
 [push]
 	default = simple
+[alias]
+	aliases = "!git config -l | grep alias | cut -c 7-"
+## common actions ##
+	cp = cherry-pick
+	st = status -s
+	cl = clone
+	ci = commit
+	ammend = commit --amend --no-edit
+	co = checkout
+	br = branch
+	cob = checkout -b
+	d = diff --word-diff
+	dc = diff --word-diff --cached
+## savepoint ##
+	save = !git add -A && git commit -m 'SAVEPOINT'
+	undo = reset HEAD~1 --mixed
+## searching ##
+	f = "!git ls-files | grep -i"
+	gr = grep -Ii
+## assuming ##
+	assume = update-index --assume-unchanged
+	unassume = update-index --no-assume-unchanged
+	assumed = "!git ls-files -v | grep ^h | cut -c 3-"
+	unassumeall = "!git assumed | xargs git update-index --no-assume-unchanged"
+	assumeall = "!git st -s | awk {'print $2'} | xargs git assume"
