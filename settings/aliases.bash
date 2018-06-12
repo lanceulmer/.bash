@@ -3,3 +3,5 @@ alias ls='ls -AGFh'
 
 alias b='bundle'
 alias be='bundle exec'
+
+alias rt='RAILS_ENV=test bundle exec rake db:drop db:create db:migrate'
