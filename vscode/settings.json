@@ -1,0 +1,41 @@
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "window.zoomLevel": 1,
+    "search.exclude": {
+        "**/.git": true,
+        "**/bower_components": true,
+        "**/vendor/gems": true,
+        "**/vendor/cache": true,
+        "**/.bundle": true,
+        "**/.sass-cache": true,
+        "**/testapp.rb": true,
+        "**/*.log": true,
+        "**/*.csv": true,
+        "**/*.byebug_history": true,
+        "**/coverage": true
+    },
+    "search.useIgnoreFiles": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": false,
+    "terminal.integrated.scrollback": 5000,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.autoClosingBrackets": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "merge-conflict.codeLens.enabled": false,
+    "merge-conflict.decorators.enabled": false,
+    "breadcrumbs.enabled": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true
+  }
