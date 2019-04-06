@@ -5,3 +5,5 @@ alias b='bundle'
 alias be='bundle exec'
 
 alias rt='RAILS_ENV=test bundle exec rake db:drop db:create db:migrate'
+
+alias x2c='/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to csv'
