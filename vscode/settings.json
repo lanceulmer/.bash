@@ -2,17 +2,18 @@
     "vim.disableAnnoyingNeovimMessage": true,
     "window.zoomLevel": 1,
     "search.exclude": {
-        "**/.git": true,
-        "**/bower_components": true,
-        "**/vendor/gems": true,
-        "**/vendor/cache": true,
-        "**/.bundle": true,
-        "**/.sass-cache": true,
-        "**/testapp.rb": true,
-        "**/*.log": true,
-        "**/*.csv": true,
-        "**/*.byebug_history": true,
-        "**/coverage": true
+      "**/.bundle": true,
+      "**/.git": true,
+      "**/.sass-cache": true,
+      "**/*.byebug_history": true,
+      "**/*.cache": true,
+      "**/*.csv": true,
+      "**/*.log*": true,
+      "**/bower_components": true,
+      "**/coverage": true,
+      "**/testapp.rb": true,
+      "**/vendor/cache": true,
+      "**/vendor/gems": true
     },
     "search.useIgnoreFiles": false,
     "workbench.editor.enablePreview": false,
@@ -37,5 +38,10 @@
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "files.trimFinalNewlines": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "terminal.integrated.rendererType": "dom",
+    "workbench.editor.showTabs": true,
+    "[go]":  {
+      "editor.formatOnSave": true
+    }
   }

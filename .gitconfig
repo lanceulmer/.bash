@@ -21,6 +21,7 @@
 	cob = checkout -b
 	d = diff --word-diff
 	dc = diff --word-diff --cached
+	fpush = push --force-with-lease origin
 ## savepoint ##
 	save = !git add -A && git commit -m 'SAVEPOINT'
 	undo = reset HEAD~1 --mixed
@@ -38,3 +39,5 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+[pager]
+	branch = false

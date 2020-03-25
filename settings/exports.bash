@@ -1,6 +1,12 @@
 # Currently this path is appendend to dynamically when picking a ruby version
 export PATH="/usr/bin:/usr/local/bin:/bin:/usr/sbin:/sbin"
 
+# Prepend path with downgraded packages
+export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+export PKG_CONFIG_PATH="/usr/local/opt/imagemagick@6/lib/pkgconfig:$PKG_CONFIG_PATH"
+
 # Turn on terminal colors
 #export TERM=xterm-256color
 

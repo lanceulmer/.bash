@@ -76,5 +76,15 @@
     {
       "key": "cmd+e",
       "command": "-actions.findWithSelection"
+    },
+    {
+      "key": "cmd+w",
+      "command": "-workbench.action.closeWindow",
+      "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+      "key": "cmd+w",
+      "command": "-workbench.action.closeWindow",
+      "when": "!editorIsOpen && !multipleEditorGroups"
     }
   ]
